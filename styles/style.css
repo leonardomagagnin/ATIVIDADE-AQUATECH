@@ -1,0 +1,246 @@
+/* Adicionar aqui toda a estilização criada para sua aplicação.; */
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(/home/guest/Downloads/aulaPI/aquatech-somente-html/public/assets/imgs/bg-jelly-fish-para-home.png);
+}
+
+
+.header {
+    
+    .container {
+        background-color: black;
+        border-bottom: 4px solid aqua;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0px 120px;
+    }
+
+    .titulo {
+        display: flex;
+        justify-content: flex-start;
+        color: aqua;
+        
+    }
+
+    .navbar {
+        width: 450px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        list-style: none;
+        font-weight: bold;
+        white-space: nowrap;
+
+        li {
+        white-space: nowrap;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        }
+
+        a {
+        color: #e3b062;
+        text-decoration: none;
+        font-size: 14px; 
+        }
+
+        li {
+        white-space: nowrap;
+        color: #e3b062;
+        }
+    }
+   
+    .agora {
+        display: flex;
+        justify-content: flex-end;
+        color: #e3b062;
+    }
+
+}
+
+.banner {
+    height: 500px;
+    width: 100%;
+
+    p {
+    margin: 0;
+    color: white;
+    font-size: 40px;
+    width: 250px;
+    }
+
+    .container {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+
+    span {
+    font-weight: bold;
+    }
+}
+
+.social {
+ background-color: #f2f2f2;
+
+}
+
+
+.boxes {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+
+
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    img {
+    width: 200px;
+    height: 200px;
+    }
+
+    p {
+    width: 300px;
+    text-align: center;
+    color: black;
+    margin-top: 0;
+    }
+
+    h4 {
+    color: #cb2078;
+    font-weight: bold;
+    margin-bottom: 10px;
+    }
+}
+
+.footer {
+    background-color: aqua;
+    .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+    } 
+}
+
+.login {
+    height: 550px;
+    width: 100%;
+
+    .container {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+    .card-login {
+    background-color: #f2f2f2;
+    width: 500px;
+    padding: 40px;
+    border-radius: 10px;
+    }   
+    .card-login h2 {
+    color: #cb2078;
+    text-align: center;
+    font-size: 30px;
+    }
+}
+
+.campo {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+    input {
+    width: 100%;
+    height: 35px;
+    border: 2px solid #32b9cd;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    }
+    span {
+    color: #cb2078;
+    font-weight: bold;
+    margin-bottom: 5px;
+    }
+}
+
+.botao {
+    background-color: #cb2078;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 30px;
+    font-weight: bold;
+}
+.formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card-cadastro {
+    background-color: #f2f2f2;
+    width: 500px;
+    padding: 15px 30px;
+    border-radius: 10px;
+
+    h2 {
+    color: #cb2078;
+    text-align: center;
+    font-size: 30px;
+    margin: 5px 0 15px 0;
+    }
+
+    .campo {
+    margin-bottom: 3px;
+    }
+
+    .campo input {
+    height: 30px;
+    margin-bottom: 8px;
+    text-align: center;
+    }
+
+    input {
+    text-align: center;
+    }
+
+}
+
+.simulador {
+   height: 600px;
+
+    h2 {
+    color: #cb2078;
+    font-size: 30px;
+    }
+
+    .container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+
+    p {
+    width: 800px;
+    text-align: center;
+    color: white;
+    margin-top: 0;
+    }
+
+}
+
+
